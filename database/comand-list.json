@@ -1,0 +1,232 @@
+[
+    {
+    "listaComandos":
+    [
+        {
+            "id": "0",
+            "marca": "Cisco",
+            "comando": "Telnet",
+            "exemplo": "<p>telnet vrf ROTEADOR_RJ:6610 XXX.XXX.XXX.XXX source-interface GIGA 1/2/0.76</p>",
+            "logo": "https://www.svgrepo.com/show/473567/cisco.svg",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "0",
+            "marca": "Cisco",
+            "comando": "ping",
+            "exemplo": "<p>ping vrf ROTEADOR_RJ:6610 XXX.XXX.XXX.XXX source-interface GIGA 1/2/0.76</p>",
+            "logo": "https://www.svgrepo.com/show/473567/cisco.svg",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "0",
+            "marca": "Cisco",
+            "comando": "Resolução de Endereços (Arp)",
+            "exemplo": "<p>show arp vrf ROTEADOR_RJ:6610 TENGIGe 0/6/1/0.16448</p>",
+            "logo": "https://cdn.freebiesupply.com/logos/large/2x/tellabs-logo-svg-vector.svg",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "0",
+            "marca": "Cisco",
+            "comando": "PPP Protocolo WAN",
+            "exemplo": "<p>show ppp multilink interface multilink 206997</p>",
+            "logo": "https://cdn.freebiesupply.com/logos/large/2x/tellabs-logo-svg-vector.svg",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "0",
+            "marca": "Cisco",
+            "comando": "Log de Quedas",
+            "exemplo": "<p>show log | include TenGigE0/6/1/0.386215</p>",
+            "logo": "https://cdn.freebiesupply.com/logos/large/2x/tellabs-logo-svg-vector.svg",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "0",
+            "marca": "Cisco",
+            "comando": "Informações de Hardware",
+            "exemplo": "<p>show  environment (em switches “show env all”)</p><p>show diag</p><p>show inventory</p>",
+            "logo": "https://cdn.freebiesupply.com/logos/large/2x/tellabs-logo-svg-vector.svg",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "5",
+            "marca": "Cisco",
+            "comando": "Verifica Fans e Temperatura da Caixa.",
+            "exemplo": "<p>show environment</p>",
+            "logo": "https://cdn.freebiesupply.com/logos/large/2x/tellabs-logo-svg-vector.svg",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "0",
+            "marca": "Huawei",
+            "comando": "ping",
+            "exemplo": "<p>ping -c10000 -s600 10.0.0.1</p>",
+            "logo": "https://cdn.worldvectorlogo.com/logos/huawei.svg",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "0",
+            "marca": "Huawei",
+            "comando": "Zerando Contadores",
+            "exemplo": "<p>reset counters controller E1 1/0</p>",
+            "logo": "https://cdn.worldvectorlogo.com/logos/huawei.svg",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "0",
+            "marca": "HP",
+            "comando": "ping",
+            "exemplo": "<p>ping -c10000 -s600 10.0.0.1</p>",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HP_logo_2012.svg/1024px-HP_logo_2012.svg.png",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "0",
+            "marca": "HP",
+            "comando": "Zerando Contadores",
+            "exemplo": "<p>reset counters controller E1 1/0</p>",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HP_logo_2012.svg/1024px-HP_logo_2012.svg.png",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "0",
+            "marca": "DATACOM",
+            "comando": "Verica Trafego na Interface",
+            "exemplo": "<p>show interfaces table utilization bandwidth</p>",
+            "logo": "https://datacom.com/content/dam/logos/datacom-logos/datacom-brand-logos/Datacom-Primary-Logo-RGB.svg",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "0",
+            "marca": "ZTE",
+            "comando": "Verifica o Nível de Potência de RX e TX da OLT",
+            "exemplo": "<p>C320-RJOAE-001#show gpon remote-onu interface pon gpon-onu_1/1/1:1</p>",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/ZTE_logo.svg/1200px-ZTE_logo.svg.png",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "0",
+            "marca": "ZTE",
+            "comando": "Verificar à distância de uma determinada ONU",
+            "exemplo": "<p>C320-RJOAE-001#show gpon onu distance gpon-onu_1/1/1:1</p>",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/ZTE_logo.svg/1200px-ZTE_logo.svg.png",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "0",
+            "marca": "ZTE",
+            "comando": "Verifica Estatística e status da interface eth de uma ONU específica",
+            "exemplo": "<p>C320-RJOAE-001#show gpon remote-onu interface eth gpon-onu_1/1/1:1</p>",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/ZTE_logo.svg/1200px-ZTE_logo.svg.png",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "0",
+            "marca": "ZTE",
+            "comando": "Verificar status de todas as ONUs da OLT.",
+            "exemplo": "<p>C320-RJOAE-001#show gpon onu state</p>",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/ZTE_logo.svg/1200px-ZTE_logo.svg.png",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "0",
+            "marca": "ZTE",
+            "comando": "Verificar status de ONU de uma PON.",
+            "exemplo": "<p>C320-RJOAE-001#show gpon onu state gpon-olt_1/1/1</p>",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/ZTE_logo.svg/1200px-ZTE_logo.svg.png",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "0",
+            "marca": "ZTE",
+            "comando": "Estatística específica da ONU.",
+            "exemplo": "<p>CC320-RJOAE-001#show interface gpon-onu_1/1/1:1</p>",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/ZTE_logo.svg/1200px-ZTE_logo.svg.png",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "0",
+            "marca": "ZTE",
+            "comando": "Informações, Estatística  na porta pon inteira #1.",
+            "exemplo": "<p>C320-RJOAE-001#show interface gpon-olt_1/1/1</p>",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/ZTE_logo.svg/1200px-ZTE_logo.svg.png",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "0",
+            "marca": "ZTE",
+            "comando": "Informações, Estatística  na porta pon inteira #2.",
+            "exemplo": "<p>C220-RJOBGU-001#show gpon onu state gpon-olt_0/4/2</p>",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/ZTE_logo.svg/1200px-ZTE_logo.svg.png",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "1",
+            "marca": "ZTE",
+            "comando": "Informações, Estatística  na porta pon inteira #3.",
+            "exemplo": "<p>C320-RJOAE-001#show mac gpon onu gpon-onu_0/5/1:4</p>",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/ZTE_logo.svg/1200px-ZTE_logo.svg.png",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "3",
+            "marca": "ZTE",
+            "comando": "Verifica uma ONU do Ramo.",
+            "exemplo": "<p>show gpon onu detail-info gpon-onu_1/1/1:16</p>",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/ZTE_logo.svg/1200px-ZTE_logo.svg.png",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "4",
+            "marca": "ZTE",
+            "comando": "Verifica Potência de uma ONU Chegando na OLT.",
+            "exemplo": "<p>C220-NRIshO-001#show transceiver info gpon-olt_0/3/3</p>",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/ZTE_logo.svg/1200px-ZTE_logo.svg.png",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "2",
+            "marca": "ZTE",
+            "comando": "Verifica VLAN especifica.",
+            "exemplo": "<p>C220-RJOARO-001#show mac vlan 3005</p>",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/ZTE_logo.svg/1200px-ZTE_logo.svg.png",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "6",
+            "marca": "Cisco",
+            "comando": "Verifica Tabela Mac de um Switch.",
+            "exemplo": "<p>sh mac address-table</p>",
+            "logo": "https://cdn.freebiesupply.com/logos/large/2x/tellabs-logo-svg-vector.svg",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "7",
+            "marca": "Cisco",
+            "comando": "Enviar mensagens na tela dos usuários conectados no seu roteador.",
+            "exemplo": "<p>send</p>",
+            "logo": "https://cdn.freebiesupply.com/logos/large/2x/tellabs-logo-svg-vector.svg",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "8",
+            "marca": "Cisco",
+            "comando": "Mostra a tabela ARP do roteador.",
+            "exemplo": "<p>show arp</p>",
+            "logo": "https://cdn.freebiesupply.com/logos/large/2x/tellabs-logo-svg-vector.svg",
+            "explicacao": "<p></p>"
+        },
+        {
+            "id": "9",
+            "marca": "Cisco",
+            "comando": "Mostra a versão do IOS, Registro e informações de hardware.",
+            "exemplo": "<p>show version</p>",
+            "logo": "https://cdn.freebiesupply.com/logos/large/2x/tellabs-logo-svg-vector.svg",
+            "explicacao": "<p></p>"
+        }
+    
+    ]
+    }
+]
