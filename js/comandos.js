@@ -30,7 +30,7 @@ titulo.innerHTML = `Comando Básicos`;
 exemplo.innerHTML = `<p>Página construida para um discionario de comados em variada plataformas!</p>`;
 camandName.innerHTML = ``;
 aside.style.display = 'none';
-listaComando.disabled = true;
+//listaComando.disabled = true;
 
 let clickMenu = document.querySelector('[data-menu]');
     clickMenu.addEventListener('click', (event) => {
