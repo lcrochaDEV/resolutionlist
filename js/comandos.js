@@ -1,5 +1,5 @@
 import { ConectJson } from '../ControllerClass/ConectionsList.js'
-import { description } from './description.js';
+import { description } from '../js/description.js';
 
 let conectJsonResult = new ConectJson('../database/comand-list.json');
 let comandList = await conectJsonResult.conectJsonUrlJson();
