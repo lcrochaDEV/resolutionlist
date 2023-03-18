@@ -27,7 +27,7 @@ itenNovo.forEach(list => {
 //INICIA PAGINA
 listaComando.innerHTML = `<option selected="selected" disabled selected style="display: none;" value="": ">Escolha uma Marca no Menu</option>`;
 titulo.innerHTML = `Comando Básicos`;
-exemplo.innerHTML = `<p>Página construida para um discionario de comados em variada plataformas!</p>`;
+exemplo.innerHTML = `<p>Página construida para um dicionário de comados em variada plataformas!</p>`;
 camandName.innerHTML = ``;
 aside.style.display = 'none';
 listaComando.disabled = true;
