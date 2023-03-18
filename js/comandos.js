@@ -3,7 +3,7 @@ import { description } from './description.js';
 
 let conectJsonResult = new ConectJson('./database/comand-list.json');
 let comandList = await conectJsonResult.conectJsonUrlJson();
-import { }from''
+
 //PEGA TEGS
 let menuLink = document.querySelector('[data-menu]');
 let listaComando = document.querySelector('[data-listaComando]');
